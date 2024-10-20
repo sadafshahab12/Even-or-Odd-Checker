@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  font-size:85%;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 30rem;
+  margin: auto;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  background-color: #c7253e;
+  color: white;
+  border: none;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.result {
+  display: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background-color: #e9ecef;
+  text-align: center;
+  font-size: 2rem;
+}
+.display {
+  display: block;
+}
+/* responsive */
+
+@media only screen and (min-width: 322px) and (max-width: 376px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 2559px) {
+  html {
+    font-size: 170%;
+  }
+}
